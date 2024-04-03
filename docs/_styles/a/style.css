@@ -4,8 +4,8 @@ body {
 }
 
 main {
-    background-color: #fff;
-    max-width: 768px;
+    /* background-color: #fff; */
+    max-width: 1208px;
     margin: 2em auto;
     padding: 1em;
     border-radius: .5em;
@@ -13,4 +13,50 @@ main {
 
 h1 {
     text-align: center;
+}
+
+
+
+.top-nav {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 16px 0;
+}
+
+.top-nav__link {
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    display: flex;
+    align-items: normal;
+    gap:4px;
+}
+
+.top-nav__icon {
+    opacity: 0.7; 
+}
+
+.groups__list {
+    align-content: flex-start;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.groups__list-item {
+    box-shadow: 0 -1px 1px hsla( 32.2, 20.2%, 60.2% , 0.05), 0 1px 2px -0.5px hsla( 32.2, 20.2%, 60.2% , 0.1) , 0 2px 4px -1px hsla( 32.2, 20.2%, 60.2% , 0.2) , 0 4px 8px -2px hsla( 32.2, 20.2%, 60.2% , 0.2);
+    width: 260px;
+    height: 145px;
+    background-color: #fff;
+    padding: 12px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.groups__list-item-link {
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
 }
