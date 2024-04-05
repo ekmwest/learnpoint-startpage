@@ -4,17 +4,14 @@ body {
 }
 
 main {
-    /* background-color: #fff; */
     max-width: 1208px;
-    margin: 2em auto;
-    padding: 1em;
+    margin: 0 auto;
     border-radius: .5em;
 }
 
 h1 {
     text-align: center;
 }
-
 
 
 .top-nav {
@@ -34,29 +31,177 @@ h1 {
 }
 
 .top-nav__icon {
-    opacity: 0.7; 
+    opacity: 0.8; 
 }
 
-.groups__list {
+.school__logo {
+    width: 240px;
+    margin: 32px auto;
+}
+
+.school__logo-image {
+    width: 100%;
+    height: 100%;
+}
+
+.school-groups__list {
     align-content: flex-start;
     display: flex;
     flex-flow: row wrap;
-    gap: 10px;
+    gap: 16px;
     justify-content: center;
 }
 
-.groups__list-item {
+.school-groups__list-item {
     box-shadow: 0 -1px 1px hsla( 32.2, 20.2%, 60.2% , 0.05), 0 1px 2px -0.5px hsla( 32.2, 20.2%, 60.2% , 0.1) , 0 2px 4px -1px hsla( 32.2, 20.2%, 60.2% , 0.2) , 0 4px 8px -2px hsla( 32.2, 20.2%, 60.2% , 0.2);
     width: 260px;
     height: 145px;
     background-color: #fff;
-    padding: 12px;
+    padding: 16px;
     box-sizing: border-box;
     border-radius: 10px;
 }
 
-.groups__list-item-link {
+.school-groups__list-item-link {
     color: #000;
     text-decoration: none;
     font-weight: 600;
+}
+
+.school-groups__list-item-type {
+    display: block;
+    margin: 4px 0;
+    color: #aaa;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 11px;
+}
+
+
+.group {
+
+}
+
+.group__features {
+    align-content: flex-start;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 12px;
+    justify-content: center;
+    margin: 36px 0;
+}
+
+.group__feature {
+    width: 25%;
+    font-weight: 600;
+    height: 150px;
+    border: 1px solid #0000001a;
+    border-radius: 6px;
+    padding: 16px;
+    text-align: center;
+}
+
+.group__feature_name a {
+    color: #000;
+    text-decoration: none;
+}
+
+.group__feature-icon-container {
+  margin-top: 64px;
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  background-color: #020c13;
+  margin: 24px auto;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.group__feature-icon-container.CONTENT {
+    background-color: #00b4d0;
+}
+
+.group__feature-icon-container.NEWS {
+     background-color: #ff2d55;
+}
+
+.group__feature-icon-container.CHANNELS {
+    background-color: #00a40e;
+}
+
+.group__feature-icon-container.STAFF {
+    background-color: #ad2c53;
+}
+
+.group__feature-icon-container.STUDENT {
+    background-color: #4282e2;
+}
+
+.group__feature-icon-container.GRADE {
+    background-color: #5856d6;
+}
+
+.group__feature-icon-container.CALENDAR {
+    background-color: #ffcc00;
+}
+
+.group__feature-icon  {
+    width: 28px;
+    height: 28px;
+}
+
+.group__feature-tabs  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    font-size: 14px;
+    border-bottom: 1px solid #0000001a;
+}
+
+.group__feature-tab  {
+    padding: 10px;
+}
+
+.group__feature-tab.SELECTED  {
+    border-bottom: 2px solid #0079f2;
+}
+
+.group__feature-tab.SELECTED a  {
+    color: #0079f2;
+}
+
+.group-content__actions {
+    text-align: center;
+    margin: 48px 0;
+}
+
+.group-content__button {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.02));
+    background-color: #fff;
+    border: 1px solid #b5b5b5;
+    padding: 0.5em 1em;
+    border-radius: 99rem;
+    color: #111;
+    color: inherit;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 16px;
+    outline: 0;
+    padding: 6px 14px;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    vertical-align: baseline;
+    margin-bottom: 16px;
+}
+
+.group-content__button.PRIMARY {
+    background-color: #0079f2 ;
+    border-color: #0079f2;
+    color: #fff;
 }

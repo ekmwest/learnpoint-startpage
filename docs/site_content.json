@@ -3,13 +3,37 @@
         "title": "A",
         "description": "",
         "url": "/a/group-page.html",
-        "content": "Learnpoint Academy"
+        "content": "Learnpoint Academy Innehåll"
+    },
+    {
+        "title": "A",
+        "description": "",
+        "url": "/a/group-start-page.html",
+        "content": "Learnpoint Academy Innehåll Nyheter Kanaler Kalendar Betyg Studenter Personal"
     },
     {
         "title": "A",
         "description": "",
         "url": "/a/index.html",
-        "content": "Learnpoint Academy Javascript 1 Interaction Design LIA User testing Advanced Javascript Javascript 2"
+        "content": "Learnpoint Academy Skola • Learnpoint Academy Frontend utveckling Klass • FEU24 Interaction Design Kurs • IDU24 LIA Kurs • LIA24 User testing Kurs • UTUX24 Advanced Javascript Kurs • AJ124 Javascript 2 Kurs • JA124"
+    },
+    {
+        "title": "B",
+        "description": "",
+        "url": "/b/group-page.html",
+        "content": "Learnpoint Academy Innehåll"
+    },
+    {
+        "title": "B",
+        "description": "",
+        "url": "/b/group-start-page.html",
+        "content": "Learnpoint Academy Innehåll Nyheter Kanaler Kalendar Betyg Studenter Personal Nytt avsnitt Importera innehåll"
+    },
+    {
+        "title": "B",
+        "description": "",
+        "url": "/b/index.html",
+        "content": "Learnpoint Academy Skola • Learnpoint Academy Frontend utveckling Klass • FEU24 Interaction Design Kurs • IDU24 LIA Kurs • LIA24 User testing Kurs • UTUX24 Advanced Javascript Kurs • AJ124 Javascript 2 Kurs • JA124"
     },
     {
         "title": "Learnpoint Startpages",
