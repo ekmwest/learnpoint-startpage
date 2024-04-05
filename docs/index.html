@@ -2,21 +2,89 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Learnpoint Startpages</title>
-    <meta name="description" content="Learnpoint Startpages">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/_styles/style.css" />
+    <meta charset="utf-8">
+<title>Learnpoint startpage</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/_styles/global.css">
+<script src="/_scripts/global.js"></script>
+    <style>
+        body {
+            background-color: #f5f5f5;
+            padding: 4em;
+        }
+
+        .is-mobile body {
+            padding: .5em;
+        }
+
+        main {
+            background-color: #fff;
+            max-width: 768px;
+            margin: 0 auto;
+            padding: 2em 2em 3em;
+            border-radius: 1em;
+            text-align: center;
+            box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+        }
+
+        h1 {
+            text-align: center;
+            margin: 0 0 1em;
+            line-height: 1.1;
+            font-size: 40px;
+        }
+
+        div {
+            display: flex;
+            gap: 1em;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        a {
+            color: #666;
+            background-color: #f0f0f0;
+            font-weight: 600;
+            font-size: 18px;
+            text-decoration: none;
+            width: 3em;
+            height: 3em;
+            border-radius: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: default;
+            pointer-events: none;
+            transition: background-color .16s;
+        }
+
+        a.implemented {
+            color: #eee;
+            background-color: #444;
+            cursor: pointer;
+            pointer-events: auto;
+        }
+
+        .is-desktop a.implemented:hover {
+            color: #fff;
+            background-color: #000;
+        }
+    </style>
 </head>
 
 <body>
     <main>
-        <h1>Learnpoint Startpages</h1>
-        <p><a href="/a">A</a></p>
-        <p><a href="/b">B</a></p>
-        <p><a href="/c">C</a></p>
-        <p><a href="/d">D</a></p>
-        <p><a href="/e">E</a></p>
+        <h1>Learnpoint startpage</h1>
+        <div>
+            <a href="/a" class="implemented">A</a>
+            <a href="/b" class="implemented">B</a>
+            <a href="/c">C</a>
+            <a href="/d">D</a>
+            <a href="/e">E</a>
+            <a href="/f">F</a>
+            <a href="/g">G</a>
+            <a href="/h">H</a>
+        </div>
     </main>
 </body>
 
