@@ -37,10 +37,12 @@ h1 {
 .school__logo {
     width: 240px;
     margin: 32px auto;
+    display: flex;
+    justify-content: center;
 }
 
 .school__logo-image {
-    width: 100%;
+    width: 50px;
     height: 100%;
 }
 
@@ -75,11 +77,6 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 11px;
-}
-
-
-.group {
-
 }
 
 .group__features {
@@ -194,8 +191,6 @@ h1 {
     margin: 0;
     text-align: center;
     text-decoration: none;
-    -moz-appearance: none;
-    -webkit-appearance: none;
     vertical-align: baseline;
     margin-bottom: 16px;
 }
