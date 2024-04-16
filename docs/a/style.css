@@ -13,6 +13,23 @@ h1 {
     text-align: center;
 }
 
+.learnpoint-startpages__button {
+    float: left;
+}
+
+.learnpoint-startpages__link {
+    padding: 16px;
+}
+
+.learnpoint-startpages__link-icon {
+    opacity: 0.3;
+    width: 24px;
+    height: 24px;
+}
+
+.learnpoint-startpages__link-icon:hover {
+    opacity: 1;
+}
 
 .top-nav {
     display: flex;
