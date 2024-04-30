@@ -14,7 +14,7 @@ h1 {
 }
 
 .learnpoint-startpages__button {
-    float: left;
+    position: absolute;
 }
 
 .learnpoint-startpages__link {
