@@ -83,23 +83,21 @@ h1 {
     background-color: #fff;
     box-sizing: border-box;
     border-radius: 10px;
+    position: relative;
     overflow: hidden;
 }
 
-.school-groups__list-item.SCHOOL .school-groups__list-item-image {
+.school-groups__list-item.SCHOOL {
     background-color: #f5cca0;
-    height: 140px;
 }
 
 
-.school-groups__list-item.CLASS .school-groups__list-item-image {
+.school-groups__list-item.CLASS{
     background-color: #f7dadf;
-    height: 140px;
 }
 
-.school-groups__list-item.COURSE .school-groups__list-item-image{
-    background-color: #e3f1fc;
-    height: 140px;
+.school-groups__list-item.COURSE {
+    background-color: #d7e6f3;
 }
 
 
@@ -109,15 +107,22 @@ h1 {
     font-weight: 600;
     padding: 16px 16px 4px 16px;
     display: block;
+    font-size: 18px;
 }
 
 .school-groups__list-item-type {
     display: block;
     padding: 0 16px;
-    color: #aaa;
+    color: #444;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 11px;
+}
+
+.school-groups__pin-icon {
+    position: absolute;
+    right:20px;
+    top:16px;
 }
 
 .group {
@@ -131,17 +136,17 @@ h1 {
 }
 
 .group__info {
-    /* display: flex;
+    display: flex;
     align-items: center;
-    justify-content: space-between; */
-    padding: 8px;
-    /* border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;  */
+    justify-content: space-between;
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd; 
+    margin-bottom: 16px;
 }
 
 .group__name-type {
-    text-align: center;
-    margin-bottom: 16px;
+    /* text-align: center;
+    margin-bottom: 20px; */
 }
 
 .group__name {
@@ -158,7 +163,8 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 36px;
+    gap: 20px;
+    font-size: 14px;
 }
 
 .group__feature-tab  {
@@ -207,9 +213,9 @@ h1 {
 }
 
 .group__course-content {
-    padding: 16px;
+    /* padding: 16px; */
     max-width: 960px;
-    margin: 14px auto;
+    margin: 24px auto;
     /* background-color: #fbfbfb; */
     /* border: 1px solid #dbdbdb; */
     border-radius: 12px;
@@ -218,7 +224,8 @@ h1 {
 }
 
 .group__course-content-section {
-    margin: 0px 0 32px;
+    margin: 0px 0 8px;
+    padding: 16px;
 }
 
 .group__course-content-section:last-child {
@@ -234,6 +241,11 @@ h1 {
 .group__course-content-item {
     padding: 8px 0;
     color:#0079f2;  
+    text-decoration: none;
+}
+
+.group__course-content-item a {
+    text-decoration: none;
 }
 
 .group__type {
@@ -260,10 +272,21 @@ h1 {
     align-items: center;
     justify-content: center;
     gap: 8px;
+    font-size: 14px;
 }
 
 .group__course-item-title {
     text-align: center;
+    margin: 8px 0 0;
+    font-size: 32px;
+}
+
+.group__course-item-sub-title {
+    text-align: center;
+    color: #aaa;
+    font-weight: normal;
+    margin: 4px 0 16px;
+    font-size: 14px;
 }
 
 .group__course-item-description {
@@ -271,8 +294,4 @@ h1 {
     margin: 0 auto;
     line-height: 1.8;
     margin-bottom: 32px;
-}
-
-.group__course-content-item a {
-    text-decoration: none;
 }

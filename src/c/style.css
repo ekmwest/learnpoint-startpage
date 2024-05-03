@@ -4,6 +4,10 @@ body {
      margin: 0;
 }
 
+a{
+    color:#0079f2;
+}
+
 main {
     max-width: 1200px; 
     margin: 0 auto;
@@ -137,12 +141,13 @@ h1 {
 
 .group__name-type {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 
 .group__name {
     margin: 0;
     font-size: 24px;
+    color: #333;
 }
 
 .group__features {
@@ -154,7 +159,6 @@ h1 {
     align-items: center;
     justify-content: center;
     gap: 36px;
-    font-size: 16px;
 }
 
 .group__feature-tab  {
@@ -238,4 +242,37 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 11px;
+}
+
+.group__course-item-content {
+    padding: 16px;
+    max-width: 960px;
+    margin: 14px auto;
+    /* background-color: #fbfbfb; */
+    /* border: 1px solid #dbdbdb; */
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+    background-color: #fff;
+}
+
+.group__breadcrumbs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.group__course-item-title {
+    text-align: center;
+}
+
+.group__course-item-description {
+    max-width: 640px;
+    margin: 0 auto;
+    line-height: 1.8;
+    margin-bottom: 32px;
+}
+
+.group__course-content-item a {
+    text-decoration: none;
 }
