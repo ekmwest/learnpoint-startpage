@@ -18,6 +18,10 @@ h1 {
     text-align: center;
 }
 
+header {
+ position: relative;
+}
+
 .learnpoint-startpages__button {
    position: absolute;
 }
@@ -39,20 +43,26 @@ h1 {
 .top-nav {
     display: flex;
     margin-left: 32px;
-    justify-content: space-between;
+    justify-content: centern;
     gap: 24px;
     margin: 16px 0;
     margin-left: 64px;
 }
 
-.top-nav__left {
-    display: flex;
-    gap: 24px;
+.top-nav__user-profile {
+    position: absolute;
+    right: 8px;
+    top:-6px;
 }
 
-.top-nav__right {
-    margin-right: 24px;
+.top-nav__avatar {
+    display: block;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 2.2em;
+    height: 2.2em;
 }
+
 
 .top-nav__link {
     color: #000;

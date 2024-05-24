@@ -3,12 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>C</title>
+    <title>F</title>
     <meta name="description" content="This site was created by Piko">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/c/style.css" />
+    <link rel="stylesheet" href="/f/style.css" />
     <link rel="stylesheet" href="/_styles/_global/page.css" />
-    <script defer src="/_scripts/a/script.js"></script>
+    <script defer src="/_scripts/script.js"></script>
 </head>
 
 <body>
@@ -17,13 +17,18 @@
         <a href="/" class="learnpoint-startpages__link"><img src="/_images/_global/arrow-left-circle.svg" class="learnpoint-startpages__link-icon"><span></span></a>
     </div>
     <nav class="top-nav">
-        <a href="/c" class="top-nav__link"><img src="/_images/_global/house-fill.svg" class="top-nav__icon"><span>Home</span></a>
-        <a href="#" class="top-nav__link"> <img src="/_images/_global/bell-fill.svg" class="top-nav__icon"><span>Notifications</span></a>
+        <a href="/f" class="top-nav__link"><img src="/_images/_global/house-fill.svg" class="top-nav__icon"><span>Home</span></a>
+        <a href="#" class="top-nav__link"><img src="/_images/_global/calendar-event-fill.svg" class="top-nav__icon"><span>Calendar</span></a>
         <a href="#" class="top-nav__link"><img src="/_images/_global/chat-fill.svg" class="top-nav__icon"><span>Chat</span></a>
     </nav>
+    <div class="top-nav__notifications">
+        <a href="#" class="top-nav__link"> <img src="/_images/_global/bell-fill.svg" class="top-nav__bell-icon">
+        </a><span class="top-nav__unread-badge">5</span>
+    </div>
     <div class="top-nav__user-profile">
         <img src="/_images/_global/ProfileImage.jpg" class="top-nav__avatar">
     </div>
+    
 </header>
     <main>
         <div class="group">
@@ -41,7 +46,7 @@
                     <div class="group__feature_name">Nyheter</div>
                 </div>
                 <div class="group__feature-tab">
-                    <div class="group__feature_name">Kanaler</div>  
+                    <a href="group-page.channels.html" class="group__feature_name">Kanaler</a>  
                 </div>
                 <div class="group__feature-tab">
                     <div class="group__feature_name">Kalendar</div>  
@@ -62,6 +67,7 @@
         </div>
     </div>
     <div class="group__course-content">
+      
         <div class="group__course-content-section">
             <div class="group__course-content-section-name">
                 Overview

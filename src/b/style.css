@@ -9,6 +9,10 @@ main {
     border-radius: .5em;
 }
 
+header {
+    position: relative;
+}
+
 h1 {
     text-align: center;
 }
@@ -50,6 +54,21 @@ h1 {
 .top-nav__icon {
     opacity: 0.8; 
 }
+
+.top-nav__user-profile {
+    position: absolute;
+    right: 8px;
+    top:-6px;
+}
+
+.top-nav__avatar {
+    display: block;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 2.2em;
+    height: 2.2em;
+}
+
 
 .school__logo {
     width: 240px;

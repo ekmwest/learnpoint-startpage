@@ -18,6 +18,10 @@ h1 {
     text-align: center;
 }
 
+header {
+    position: relative;
+}
+
 .learnpoint-startpages__button {
    position: absolute;
 }
@@ -54,6 +58,21 @@ h1 {
 
 .top-nav__icon {
     opacity: 0.8; 
+}
+
+
+.top-nav__user-profile {
+    position: absolute;
+    right: 10px;
+    top:-6px;
+}
+
+.top-nav__avatar {
+    display: block;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 2.2em;
+    height: 2.2em;
 }
 
 .school__logo {
