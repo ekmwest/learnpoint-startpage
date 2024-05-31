@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="/_styles/_global/style.css">
 <script src="/_scripts/_global/script.js"></script>
     <link rel="stylesheet" href="/a/style.css" />
+    <script defer src="/a/script.js"></script>
     <link rel="stylesheet" href="/_styles/_global/page.css" />
 </head>
 
@@ -18,14 +19,110 @@
         <a href="/" class="learnpoint-startpages__link"><img src="/_images/_global/arrow-left-circle.svg" class="learnpoint-startpages__link-icon"><span></span></a>
     </div>
     <nav class="top-nav">
-        <a href="/a" class="top-nav__link"><img src="/_images/_global/house-fill.svg" class="top-nav__icon"><span>Home</span></a>
-        <a href="#" class="top-nav__link"> <img src="/_images/_global/bell-fill.svg" class="top-nav__icon"><span>Notifications</span></a>
-        <a href="#" class="top-nav__link"><img src="/_images/_global/chat-fill.svg" class="top-nav__icon"><span>Chat</span></a>
+        <a href="/a" class="top-nav__link"><img src="/_images/_global/house-fill.svg" class="top-nav__icon"><span>Hem</span></a>
+        <a href="#" class="top-nav__link" data-element="notifications-popover.toggle-button"> <img src="/_images/_global/bell-fill.svg" class="top-nav__icon" ><span>Aviseringar</span></a>
+        <a href="#" class="top-nav__link"><img src="/_images/_global/chat-fill.svg" class="top-nav__icon"><span>Chatt</span></a>
     </nav>
     <div class="top-nav__user-profile">
         <img src="/_images/_global/ProfileImage.jpg" class="top-nav__avatar">
     </div>
 </header>
+    
+<div class="notifications" data-component="notifications-popover">
+    <div class="notifications__container">
+        <div class="notifications__header">
+            <div class="notifications__title">
+                Nya
+            </div>     
+            <div class="notifications__actions">
+                Markera alla som lästa
+            </div>    
+        </div>
+        <div class="notifications__items">                                                                  
+            <div class="notifications__item NEWS">                 
+                <div class="notifications__icon"></div>
+                <div class="notifications__content">
+                    <div class="notifications__description">
+                        <span>Hej</span>
+                    </div>
+                    <div class="notifications__meta">
+                        <span >Nyhet</span>
+                        <span>•</span>
+                        <span>Adam A</span>•</span>
+                        <span>Showcase Academy</span>
+                        <span>•</span>
+                        <span>1 dec 2023</span>
+                    </div>
+                </div>
+            </div>                           
+        </div>
+        <div class="notifications__items">                                                                  
+            <div class="notifications__item SUBMISSION">                 
+                <div class="notifications__icon"></div>
+                <div class="notifications__content">
+                    <div class="notifications__description">
+                        <span>Fackverkskonstruktioner - Jennie Ahl har lämnat in</span>
+                    </div>
+                    <div class="notifications__meta">
+                        <span >Inlämning</span>
+                        <span>•</span>
+                        <span>Adam A</span>•</span>
+                        <span>Advanced JavaScript</span>
+                        <span>•</span>
+                        <span>1 jun 2024</span>
+                    </div>
+                </div>
+            </div>                           
+        </div>
+    </div>
+    <div class="notifications__read">
+        <div class="notifications__container">
+            <div class="notifications__header">
+                <div class="notifications__title">
+                    Lästa
+                </div>       
+            </div>
+            <div class="notifications__items">                                                                  
+                <div class="notifications__item COMMENT">                 
+                    <div class="notifications__icon"></div>
+                    <div class="notifications__content">
+                        <div class="notifications__description">
+                            <span>Re: Materialprover</span>
+                        </div>
+                        <div class="notifications__meta">
+                            <span >Kommentar på Inlägg i Kanal</span>
+                            <span>•</span>
+                            <span>Adam A</span>•</span>
+                            <span>Hållbart byggande</span>
+                            <span>•</span>
+                            <span>1 maj 2024</span>
+                        </div>
+                    </div>
+                </div>                           
+            </div>
+            <div class="notifications__items">                                                                  
+                <div class="notifications__item COMMENT         ">                 
+                    <div class="notifications__icon"></div>
+                    <div class="notifications__content">
+                        <div class="notifications__description">
+                            <span>Re: Nu finns det aviseringar i Learnpoint!</span>
+                        </div>
+                        <div class="notifications__meta">
+                            <span >Kommentar på Nyhet</span>
+                            <span>•</span>
+                            <span>Adam A</span>•</span>
+                            <span>Advanced JavaScript</span>
+                            <span>•</span>
+                            <span>1 jun 2024</span>
+                        </div>
+                    </div>
+                </div>                           
+            </div>
+        </div>
+        <a class="notifications__view-more-link" href="">Visa fler aviseringar...</a>
+    </div>
+  
+</div>
     <main>
         <div class="page">
     <div class="page__sheet">

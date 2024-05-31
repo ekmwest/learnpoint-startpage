@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/f/style.css" />
     <link rel="stylesheet" href="/_styles/_global/page.css" />
-    <script defer src="/_scripts/script.js"></script>
+    <script defer src="/f/script.js"></script>
 </head>
 
 <body>
@@ -21,7 +21,7 @@
         <a href="#" class="top-nav__link"><img src="/_images/_global/calendar-event-fill.svg" class="top-nav__icon"><span>Calendar</span></a>
         <a href="#" class="top-nav__link"><img src="/_images/_global/chat-fill.svg" class="top-nav__icon"><span>Chat</span></a>
     </nav>
-    <div class="top-nav__notifications">
+    <div class="top-nav__notifications" data-element="notifications-popover.toggle-button">
         <a href="#" class="top-nav__link"> <img src="/_images/_global/bell-fill.svg" class="top-nav__bell-icon">
         </a><span class="top-nav__unread-badge">5</span>
     </div>
@@ -30,6 +30,102 @@
     </div>
     
 </header>
+    
+<div class="notifications" data-component="notifications-popover">
+    <div class="notifications__container">
+        <div class="notifications__header">
+            <div class="notifications__title">
+                Nya
+            </div>     
+            <div class="notifications__actions">
+                Markera alla som lästa
+            </div>    
+        </div>
+        <div class="notifications__items">                                                                  
+            <div class="notifications__item NEWS">                 
+                <div class="notifications__icon"></div>
+                <div class="notifications__content">
+                    <div class="notifications__description">
+                        <span>Hej</span>
+                    </div>
+                    <div class="notifications__meta">
+                        <span >Nyhet</span>
+                        <span>•</span>
+                        <span>Adam A</span>•</span>
+                        <span>Showcase Academy</span>
+                        <span>•</span>
+                        <span>1 dec 2023</span>
+                    </div>
+                </div>
+            </div>                           
+        </div>
+        <div class="notifications__items">                                                                  
+            <div class="notifications__item SUBMISSION">                 
+                <div class="notifications__icon"></div>
+                <div class="notifications__content">
+                    <div class="notifications__description">
+                        <span>Fackverkskonstruktioner - Jennie Ahl har lämnat in</span>
+                    </div>
+                    <div class="notifications__meta">
+                        <span >Inlämning</span>
+                        <span>•</span>
+                        <span>Adam A</span>•</span>
+                        <span>Advanced JavaScript</span>
+                        <span>•</span>
+                        <span>1 jun 2024</span>
+                    </div>
+                </div>
+            </div>                           
+        </div>
+    </div>
+    <div class="notifications__read">
+        <div class="notifications__container">
+            <div class="notifications__header">
+                <div class="notifications__title">
+                    Lästa
+                </div>       
+            </div>
+            <div class="notifications__items">                                                                  
+                <div class="notifications__item COMMENT">                 
+                    <div class="notifications__icon"></div>
+                    <div class="notifications__content">
+                        <div class="notifications__description">
+                            <span>Re: Materialprover</span>
+                        </div>
+                        <div class="notifications__meta">
+                            <span >Kommentar på Inlägg i Kanal</span>
+                            <span>•</span>
+                            <span>Adam A</span>•</span>
+                            <span>Hållbart byggande</span>
+                            <span>•</span>
+                            <span>1 maj 2024</span>
+                        </div>
+                    </div>
+                </div>                           
+            </div>
+            <div class="notifications__items">                                                                  
+                <div class="notifications__item COMMENT         ">                 
+                    <div class="notifications__icon"></div>
+                    <div class="notifications__content">
+                        <div class="notifications__description">
+                            <span>Re: Nu finns det aviseringar i Learnpoint!</span>
+                        </div>
+                        <div class="notifications__meta">
+                            <span >Kommentar på Nyhet</span>
+                            <span>•</span>
+                            <span>Adam A</span>•</span>
+                            <span>Advanced JavaScript</span>
+                            <span>•</span>
+                            <span>1 jun 2024</span>
+                        </div>
+                    </div>
+                </div>                           
+            </div>
+        </div>
+        <a class="notifications__view-more-link" href="">Visa fler aviseringar...</a>
+    </div>
+  
+</div>
     <main>
         <div class="group">
     <div class="group__info">
