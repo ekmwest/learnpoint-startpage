@@ -1,6 +1,6 @@
 body {
     font-family: -apple-system, "Segoe UI", Helvetica, sans-serif;
-     background-color: #fffcf6 ;
+     background-color: #fffcf9;
      margin: 0;
 }
 
@@ -9,7 +9,7 @@ a{
 }
 
 main {
-    /* max-width: 1200px; 
+    /* max-width: 1200px;
     margin: 0 auto;
     border-radius: .5em; */
 }
@@ -24,6 +24,7 @@ header {
 
 .learnpoint-startpages__button {
    position: absolute;
+   top: 16px;
 }
 
 .learnpoint-startpages__link {
@@ -43,8 +44,10 @@ header {
 .top-nav {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 24px;
-    margin: 16px 0;
+    /* border-bottom: 1px solid #ddd; */
+    padding: 16px 0;
 }
 
 .top-nav__link {
@@ -88,15 +91,15 @@ header {
 .top-nav__notifications {
     position: absolute;
     right: 50px;
-    top: -4px;
+    top: 16px;
 }
 
 .top-nav__icon {
-    opacity: 0.8; 
+    opacity: 0.8;
 }
 
 .top-nav__bell-icon {
-    opacity: 0.8; 
+    opacity: 0.8;
     width: 20px;
     height: 20px;
 }
@@ -105,7 +108,7 @@ header {
 .top-nav__user-profile {
     position: absolute;
     right: 10px;
-    top:-6px;
+    top:14px;
 }
 
 .top-nav__avatar {
@@ -119,7 +122,7 @@ header {
 .notifications {
     background-color: #fff;
     box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
-    border-radius: 6px; 
+    border-radius: 6px;
     max-width: 500px;
     margin: 0 auto;
     position: absolute;
@@ -208,7 +211,7 @@ header {
 
 .notifications__item.SUBMISSION .notifications__icon {
     background-color: #5856d6;
-    background-image: url(_images/download.svg); 
+    background-image: url(_images/download.svg);
     background-size: 20px 20px;
 }
 
@@ -271,7 +274,7 @@ header {
 }
 
 .school-groups {
-    max-width: 1200px; 
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -301,10 +304,12 @@ header {
 
 .school-groups__list-item.CLASS{
     background-color: #f7dadf;
+    background-color: #ffdccf;
 }
 
 .school-groups__list-item.COURSE {
     background-color: #d7e6f3;
+    background-color: #cce9ff;
 }
 
 
@@ -333,34 +338,34 @@ header {
 }
 
 .group {
-    max-width: 920px;
+    /* max-width: 920px; */
     margin: 8px auto;
-    /* background-color: #fbfbfb; 
-     border: 1px solid #dbdbdb; 
+    /* background-color: #fbfbfb;
+     border: 1px solid #dbdbdb;
     border-radius: 12px;
     box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
     background-color: #fff; */
 }
 
-.group__info {  
+.group__info {
     justify-content: space-between;
-    padding: 8px 16px;
     margin-bottom: 16px;
 }
 
 .group__name-type {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 8px;
 }
 
 .group__name {
     margin: 0;
-    font-size: 20px;
+    font-size: 24px;
     color: #333;
 }
 
 .group__features {
-    padding-right: 16px;
+  text-align: center;
+  margin-top: 16px;
 }
 
 .group__feature-tabs  {
@@ -368,14 +373,45 @@ header {
     align-items: center;
     justify-content: center;
     gap: 24px;
-    font-size: 16px;
+    font-size: 15px;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 36px;
+    /* border-radius: 12px; */
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    box-sizing: border-box;
+    scrollbar-color: rgba(0, 0, 0, .1) rgba(0, 0, 0, .04);
+    scrollbar-width: thin;
+}
+
+.is-mobile .group__feature-tabs  {
+    justify-content:unset;
+    font-size: 14px;
+}
+
+.group__feature-tabs ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.group__feature-tabs ::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.group__feature-tabs ::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, .04);
+    border-radius: 0;
 }
 
 .group__feature-tab  {
+    padding-bottom: 10px;
+    padding: 0 8px 10px 8px;
 }
 
 .group__feature-tab.SELECTED  {
-    /* border-bottom: 2px solid #0079f2; */
+    border-bottom: 2px solid #0079f2;
 }
 
 .group__feature-tab.SELECTED a  {
@@ -425,11 +461,12 @@ header {
 .group__course-content {
     /* padding: 16px; */
     max-width: 960px;
-    margin: 8px auto;
+    margin: 24px auto;
     /* background-color: #fbfbfb; */
     /* border: 1px solid #dbdbdb; */
     border-radius: 12px;
     box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+    box-shadow: 0 -1px 1px hsla( 34.5, 20.9%, 44.1% , 0.05), 0 1px 2px -0.5px hsla( 34.5, 20.9%, 44.1% , 0.1) , 0 2px 4px -1px hsla( 34.5, 20.9%, 44.1% , 0.2) , 0 4px 8px -2px hsla( 34.5, 20.9%, 44.1% , 0.2) , 0 16px 32px -8px hsla( 34.5, 20.9%, 44.1% , 0.2);
     background-color: #fff;
 }
 
@@ -450,7 +487,7 @@ header {
 
 .group__course-content-item {
     padding: 8px 0;
-    color:#0079f2;  
+    color:#0079f2;
     text-decoration: none;
 }
 
@@ -463,26 +500,30 @@ header {
     color: #aaa;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .group__course-item-content {
     padding: 16px;
     max-width: 960px;
-    margin: 8px auto;
+    margin: 6px auto;
     /* background-color: #fbfbfb; */
     /* border: 1px solid #dbdbdb; */
-    border-radius: 12px;
+    border-radius: 8px;
     box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+    box-shadow: 0 -1px 1px hsla( 34.5, 20.9%, 44.1% , 0.05), 0 1px 2px -0.5px hsla( 34.5, 20.9%, 44.1% , 0.1) , 0 2px 4px -1px hsla( 34.5, 20.9%, 44.1% , 0.2) , 0 4px 8px -2px hsla( 34.5, 20.9%, 44.1% , 0.2) , 0 16px 32px -8px hsla( 34.5, 20.9%, 44.1% , 0.2);
     background-color: #fff;
 }
 
 .group__breadcrumbs {
+    max-width: 984px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     gap: 8px;
-    font-size: 14px;
+    margin:24px auto 0;
+    font-size: 13px;
+    padding: 4px 8px;
 }
 
 .group__course-item-title {
@@ -509,11 +550,12 @@ header {
 .group__course-channel {
    /* padding: 16px; */
    max-width: 960px;
-   margin: 8px auto;
+   margin: 24px auto;
    /* background-color: #fbfbfb; */
    /* border: 1px solid #dbdbdb; */
    border-radius: 12px;
    box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+   box-shadow: 0 -1px 1px hsla( 34.5, 20.9%, 44.1% , 0.05), 0 1px 2px -0.5px hsla( 34.5, 20.9%, 44.1% , 0.1) , 0 2px 4px -1px hsla( 34.5, 20.9%, 44.1% , 0.2) , 0 4px 8px -2px hsla( 34.5, 20.9%, 44.1% , 0.2) , 0 16px 32px -8px hsla( 34.5, 20.9%, 44.1% , 0.2);
    background-color: #fff;
    height: 800px;
    display: flex;

@@ -24,6 +24,7 @@ header {
 
 .learnpoint-startpages__button {
    position: absolute;
+   top: 16px;
 }
 
 .learnpoint-startpages__link {
@@ -44,7 +45,9 @@ header {
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin: 16px 0;
+    margin: 0 0 16px 0;
+    padding: 16px 0;;
+    border-bottom: 1px solid #ddd;
 }
 
 .top-nav__link {
@@ -64,7 +67,7 @@ header {
 .top-nav__user-profile {
     position: absolute;
     right: 10px;
-    top:-6px;
+    top:8px;
 }
 
 .top-nav__avatar {
@@ -118,6 +121,7 @@ header {
 
 .school-groups__list-item.COURSE .school-groups__list-item-image{
     background-color: #e3f1fc;
+    background-color: #cce9ff;
     height: 140px;
 }
 
@@ -153,14 +157,14 @@ header {
     /* display: flex;
     align-items: center;
     justify-content: space-between; */
-    padding: 8px;
+    /* padding: 8px; */
     /* border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;  */
 }
 
 .group__name-type {
     text-align: center;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .group__name {
@@ -170,21 +174,21 @@ header {
 }
 
 .group__features {
-    padding-right: 16px;
 }
 
 .group__feature-tabs  {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 36px;
+    gap: 24px;
 }
 
 .group__feature-tab  {
+    padding-bottom: 6px;
 }
 
 .group__feature-tab.SELECTED  {
-    /* border-bottom: 2px solid #0079f2; */
+    border-bottom: 1px solid #0079f2; 
 }
 
 .group__feature-tab.SELECTED a  {
@@ -283,6 +287,7 @@ header {
 
 .group__course-item-title {
     text-align: center;
+    margin: 8px 0;
 }
 
 .group__course-item-description {

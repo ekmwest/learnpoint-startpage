@@ -13,19 +13,13 @@ header {
     position: relative;
 }
 
-h1 {
+.group__name {
     text-align: center;
 }
 
-.group__breadcrumb {
-    display: flex;
-    gap: 8px;
-    justify-content: center;
-    margin-top:20px;
-}
-
-.group__breadcrumb-link {
-   color:#0079f2;
+.group__course-page-title {
+    text-align: center;
+    margin: 8px 0;
 }
 
 .learnpoint-startpages__button {
@@ -107,7 +101,9 @@ h1 {
     left: 0;
     right: 0;
     margin: auto;
-    display: none;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .3s ease, visibility  .2s ease;
 }
 
 .is-mobile .notifications {
@@ -144,7 +140,10 @@ h1 {
 }
 
 .notifications.OPEN {
-    display: block;
+    /* display: block; */
+    visibility: visible;
+    opacity: 1;
+    transition: opacity .3s ease, visibility  .2s ease;
 }
 
 
@@ -468,13 +467,55 @@ h1 {
 }
 
 .group__course-content-item {
-    padding: 8px 0;
-    color:#0079f2;  
+    padding: 4px 0; 
     text-decoration: none;
+    color:#0079f2; 
+}
+
+.group__course-content-item:visited {
+    color:#0079f2;  
 }
 
 .group__course-content-item a {
-    text-decoration: none;
+    text-decoration: none;   
+    color:#0079f2; 
+}
+
+
+.group__breadcrumbs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 24px 0;
+    font-size: 15px;
+}
+
+.group__breadcrumbs a:visited {
+    text-decoration: none;   
+    color:#0079f2; 
+}
+
+
+.group__course-item-title {
+    text-align: center;
+    margin: 8px 0 0;
+    font-size: 32px;
+}
+
+.group__course-item-sub-title {
+    text-align: center;
+    color: #aaa;
+    font-weight: normal;
+    margin: 4px 0 16px;
+    font-size: 14px;
+}
+
+.group__course-item-description {
+    max-width: 640px;
+    margin: 12px auto;
+    line-height: 1.8;
+    margin-bottom: 32px;
 }
 
 .group__course-channel {
