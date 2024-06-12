@@ -4,6 +4,7 @@ document.addEventListener('click', event => {
     if (!toggleButton) {
         return;
     }
+    
     const notificationsPopover = document.querySelector('[data-component="notifications-popover"]');
     if(!notificationsPopover) {
         return;
