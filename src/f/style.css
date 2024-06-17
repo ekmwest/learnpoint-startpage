@@ -1,17 +1,12 @@
 body {
     font-family: -apple-system, "Segoe UI", Helvetica, sans-serif;
      background-color: #fffcf9;
+     background-color: #fafafa;
      margin: 0;
 }
 
 a{
     color:#0079f2;
-}
-
-main {
-    /* max-width: 1200px;
-    margin: 0 auto;
-    border-radius: .5em; */
 }
 
 h1 {
@@ -81,10 +76,13 @@ header {
 
 .top-nav__link {
     color: #000;
+    color: #0780ff;
+    color: #006bdb;
+    color: #0063ca;
     text-decoration: none;
     font-weight: 600;
     display: flex;
-    align-items: normal;
+    align-items: center;
     gap:4px;
 }
 
@@ -263,14 +261,13 @@ header {
 
 .school__logo {
     width: 240px;
-    margin: 32px auto;
+    margin: 24px auto 32px;
     display: flex;
     justify-content: center;
 }
 
 .school__logo-image {
-    width: 50px;
-    height: 100%;
+    width: 160px;
 }
 
 .school-groups {
@@ -287,9 +284,10 @@ header {
 }
 
 .school-groups__list-item {
-    width: 300px;
-    height: 170px;
+    width: 240px;
+    height: 120px;
     border: 1px solid #dbdbdb;
+    border: 1px solid #ccc;
     background-color: #fff;
     box-sizing: border-box;
     border-radius: 10px;
@@ -299,17 +297,20 @@ header {
 
 .school-groups__list-item.SCHOOL {
     background-color: #f5cca0;
+    background-color: #fff;
 }
 
 
 .school-groups__list-item.CLASS{
     background-color: #f7dadf;
     background-color: #ffdccf;
+    background-color: #fff;
 }
 
 .school-groups__list-item.COURSE {
     background-color: #d7e6f3;
     background-color: #cce9ff;
+    background-color: #fff;
 }
 
 
@@ -317,18 +318,23 @@ header {
     color: #000;
     text-decoration: none;
     font-weight: 600;
+    font-weight: bold;
     padding: 16px 16px 4px 16px;
     display: block;
     font-size: 18px;
+    font-size: 16px;
 }
 
 .school-groups__list-item-type {
     display: block;
     padding: 0 16px;
     color: #444;
+    color: #555;
     text-transform: uppercase;
     letter-spacing: 1px;
+    letter-spacing: normal;
     font-size: 11px;
+    font-size: 13px;
 }
 
 .school-groups__pin-icon {
@@ -350,6 +356,8 @@ header {
 .group__info {
     justify-content: space-between;
     margin-bottom: 16px;
+    max-width: 1024px;
+    margin: 0 auto 16px auto;
 }
 
 .group__name-type {
@@ -372,9 +380,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 24px;
+    gap: 16px;
     font-size: 15px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #ccc;
     padding: 0px 36px;
     /* border-radius: 12px; */
     overflow-x: auto;
@@ -412,10 +420,12 @@ header {
 
 .group__feature-tab.SELECTED  {
     border-bottom: 2px solid #0079f2;
+    border-bottom: 2px solid #333;
 }
 
 .group__feature-tab.SELECTED a  {
     color: #0079f2;
+    color: #000;
     text-decoration: none;
 }
 
@@ -487,6 +497,7 @@ header {
 
 .group__course-content-item {
     padding: 8px 0;
+    padding: 8px 2px;
     color:#0079f2;
     text-decoration: none;
 }
@@ -517,6 +528,7 @@ header {
 
 .group__breadcrumbs {
     max-width: 984px;
+    max-width: 968px;
     display: flex;
     align-items: center;
     justify-content: left;
@@ -689,9 +701,6 @@ header {
     transition-duration: .2s;
     width: 100%;
     height: 45px;
-    vertical-align: baseline;
-    -webkit-appearance: none;
-    -moz-appearance: none;
     box-sizing: border-box;
 }
 
