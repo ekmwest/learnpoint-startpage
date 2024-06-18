@@ -1,6 +1,6 @@
 body {
     font-family: -apple-system, "Segoe UI", Helvetica, sans-serif;
-    background-color: #fffcf9;
+    background-color: #f0eef6;
 }
 
 main {
@@ -91,10 +91,11 @@ h1 {
 }
 
 .school-groups__list-item {
-    box-shadow: 0 -1px 1px hsla( 32.2, 20.2%, 60.2% , 0.05), 0 1px 2px -0.5px hsla( 32.2, 20.2%, 60.2% , 0.1) , 0 2px 4px -1px hsla( 32.2, 20.2%, 60.2% , 0.2) , 0 4px 8px -2px hsla( 32.2, 20.2%, 60.2% , 0.2);
+   
     width: 260px;
     height: 145px;
     background-color: #fff;
+    border: 1px solid #ddd;
     padding: 16px;
     box-sizing: border-box;
     border-radius: 10px;

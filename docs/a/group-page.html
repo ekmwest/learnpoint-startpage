@@ -15,17 +15,19 @@
 
 <body>
     <header>
-    <div class="learnpoint-startpages__button">
-        <a href="/" class="learnpoint-startpages__link"><img src="/_images/_global/arrow-left-circle.svg" class="learnpoint-startpages__link-icon"><span></span></a>
-    </div>
-    <nav class="top-nav">
-        <a href="/a" class="top-nav__link"><img src="/_images/_global/house-fill.svg" class="top-nav__icon"><span>Hem</span></a>
-        <a href="#" class="top-nav__link" data-element="notifications-popover.toggle-button"> <img src="/_images/_global/bell-fill.svg" class="top-nav__icon" ><span>Aviseringar</span></a>
-        <a href="#" class="top-nav__link"><img src="/_images/_global/chat-fill.svg" class="top-nav__icon"><span>Chatt</span></a>
+    <nav>
+        <div class="learnpoint-startpages__button">
+            <a href="/" class="learnpoint-startpages__link"><img src="/_images/_global/arrow-left-circle.svg" class="learnpoint-startpages__link-icon"><span></span></a>
+        </div>
+        <div class="top-nav">
+            <a href="/a" class="top-nav__link"><img src="/_images/_global/house-fill.svg" class="top-nav__icon"><span>Hem</span></a>
+            <a href="#" class="top-nav__link" data-element="notifications-popover.toggle-button"> <img src="/_images/_global/bell-fill.svg" class="top-nav__icon" ><span>Aviseringar</span></a>
+            <a href="#" class="top-nav__link"><img src="/_images/_global/chat-fill.svg" class="top-nav__icon"><span>Chatt</span></a>
+        </div>
+        <div class="top-nav__user-profile">
+            <img src="/_images/_global/ProfileImage.jpg" class="top-nav__avatar">
+        </div>
     </nav>
-    <div class="top-nav__user-profile">
-        <img src="/_images/_global/ProfileImage.jpg" class="top-nav__avatar">
-    </div>
 </header>
     
 <div class="notifications" data-component="notifications-popover">
@@ -146,6 +148,9 @@
             <div class="group__course-content-item">
                 Functions
             </div>
+            <div class="group__course-content-item-new">
+                <img src="_images/plus.svg" class="group__course-content-item-new-icon"><span>Ny kursdel</span>
+            </div>
         </div>
         <div class="group__course-content-section">
             <div class="group__course-content-section-name">
@@ -157,6 +162,13 @@
             <div class="group__course-content-item">
                 Deployment
             </div>
+            <div class="group__course-content-item-new">
+                <img src="_images/plus.svg" class="group__course-content-item-new-icon"><span>Ny kursdel</span>
+            </div>
+        </div>
+        <div class="group__course-content-actions">
+            <button class="group__course-content-button PRIMARY">Nytt avsnitt</button>
+            <button class="group__course-content-button">Importera innehåll</button>
         </div>
     </div>
 </div>
