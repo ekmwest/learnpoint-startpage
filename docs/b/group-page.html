@@ -2,37 +2,252 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>B</title>
-    <meta name="description" content="This site was created by Piko">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+<title>B</title>
+<link rel="shortcut icon" type="image/svg+xml" href="/_images/_global/favicon.svg" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/_styles/_global/style.css">
+<script src="/_scripts/_global/script.js"></script>
     <link rel="stylesheet" href="/b/style.css" />
+    <script defer src="/b/script.js"></script>
     <link rel="stylesheet" href="/_styles/_global/page.css" />
-    <script defer src="/_scripts/a/script.js"></script>
 </head>
 
 <body>
     <header>
-    <div class="learnpoint-startpages__button">
-        <a href="/" class="learnpoint-startpages__link"><img src="/_images/_global/arrow-left-circle.svg" class="learnpoint-startpages__link-icon"><span></span></a>
-    </div>
-    <nav class="top-nav">
-        <a href="/b" class="top-nav__link"><img src="/_images/_global/house-fill.svg" class="top-nav__icon"><span>Home</span></a>
-        <a href="#" class="top-nav__link"> <img src="/_images/_global/bell-fill.svg" class="top-nav__icon"><span>Notifications</span></a>
-        <a href="#" class="top-nav__link"><img src="/_images/_global/chat-fill.svg" class="top-nav__icon"><span>Chat</span></a>
-    </nav>
-    <div class="top-nav__user-profile">
-        <img src="/_images/_global/ProfileImage.jpg" class="top-nav__avatar">
-    </div>
-</header>
-    <main>
-        <div class="page">
-    <div class="page__sheet">
-        <div  class="page__breadcrumb"> 
-             <a href="group-start-page.html" class="page__breadcrumb-link">Learnpoint Academy</a>
+    <nav>
+        <div class="learnpoint-startpages__button">
+            <a href="/" class="learnpoint-startpages__link"><img src="/_images/_global/arrow-left-circle.svg" class="learnpoint-startpages__link-icon"><span></span></a>
         </div>
-            <h1>Innehåll</h1>
-        
+        <div class="top-nav">
+            <a href="/a" class="top-nav__link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+  <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"/>
+  <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z"/>
+</svg>
+               <span>Hem</span>
+           </a>
+           <a href="#" class="top-nav__link" data-element="notifications-popover.toggle-button">
+               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
+  <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2m.995-14.901a1 1 0 1 0-1.99 0A5 5 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901"/>
+</svg>
+               <span>Aviseringar</span>
+           </a>
+           <a href="#" class="top-nav__link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-event-fill" viewBox="0 0 16 16">
+  <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2m-3.5-7h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5"/>
+</svg>
+                <span>kalender</span>
+           </a>
+        <div class="top-nav__user-profile">
+            <img src="/_images/_global/ProfileImage.jpg" class="top-nav__avatar">
+        </div>
+    </nav>
+</header>
+    
+<div class="notifications" data-component="notifications-popover">
+    <div class="notifications__container">
+        <div class="notifications__header">
+            <div class="notifications__title">
+                Nya
+            </div>     
+            <div class="notifications__actions">
+                Markera alla som lästa
+            </div>    
+        </div>
+        <div class="notifications__items">                                                                  
+            <div class="notifications__item NEWS">                 
+                <div class="notifications__icon"></div>
+                <div class="notifications__content">
+                    <div class="notifications__description">
+                        <span>Hej</span>
+                    </div>
+                    <div class="notifications__meta">
+                        <span >Nyhet</span>
+                        <span>•</span>
+                        <span>Adam A</span>•</span>
+                        <span>Showcase Academy</span>
+                        <span>•</span>
+                        <span>1 dec 2023</span>
+                    </div>
+                </div>
+            </div>                           
+        </div>
+        <div class="notifications__items">                                                                  
+            <div class="notifications__item SUBMISSION">                 
+                <div class="notifications__icon"></div>
+                <div class="notifications__content">
+                    <div class="notifications__description">
+                        <span>Fackverkskonstruktioner - Jennie Ahl har lämnat in</span>
+                    </div>
+                    <div class="notifications__meta">
+                        <span >Inlämning</span>
+                        <span>•</span>
+                        <span>Adam A</span>•</span>
+                        <span>Advanced JavaScript</span>
+                        <span>•</span>
+                        <span>1 jun 2024</span>
+                    </div>
+                </div>
+            </div>                           
+        </div>
+    </div>
+    <div class="notifications__read">
+        <div class="notifications__container">
+            <div class="notifications__header">
+                <div class="notifications__title">
+                    Lästa
+                </div>       
+            </div>
+            <div class="notifications__items">                                                                  
+                <div class="notifications__item COMMENT">                 
+                    <div class="notifications__icon"></div>
+                    <div class="notifications__content">
+                        <div class="notifications__description">
+                            <span>Re: Materialprover</span>
+                        </div>
+                        <div class="notifications__meta">
+                            <span >Kommentar på Inlägg i Kanal</span>
+                            <span>•</span>
+                            <span>Adam A</span>•</span>
+                            <span>Hållbart byggande</span>
+                            <span>•</span>
+                            <span>1 maj 2024</span>
+                        </div>
+                    </div>
+                </div>                           
+            </div>
+            <div class="notifications__items">                                                                  
+                <div class="notifications__item COMMENT         ">                 
+                    <div class="notifications__icon"></div>
+                    <div class="notifications__content">
+                        <div class="notifications__description">
+                            <span>Re: Nu finns det aviseringar i Learnpoint!</span>
+                        </div>
+                        <div class="notifications__meta">
+                            <span >Kommentar på Nyhet</span>
+                            <span>•</span>
+                            <span>Adam A</span>•</span>
+                            <span>Advanced JavaScript</span>
+                            <span>•</span>
+                            <span>1 jun 2024</span>
+                        </div>
+                    </div>
+                </div>                           
+            </div>
+        </div>
+        <a class="notifications__view-more-link" href="">Visa fler aviseringar...</a>
+    </div>
+  
+</div>
+    <main>
+        <div class="group">
+    <div class="group__info">
+        <div class="group__name-type">
+            <h4 class="group__name">Advanced JavaScript</h4>
+            <span class="group__type">Kurs • AJ2024</span>
+        </div>
+        <div class="group__features">
+            <div class="group__feature-tabs">
+                <div class="group__feature-tab SELECTED ">
+                    <a class="group__feature_name">Innehåll</a>
+                </div>
+                <div class="group__feature-tab">
+                    <div class="group__feature_name">Nyheter</div>
+                </div>
+                <div class="group__feature-tab">
+                    <a href="group-page.channels.html" class="group__feature_name">Kanaler</a>  
+                </div>
+                <div class="group__feature-tab">
+                    <div class="group__feature_name">Kalender</div>  
+                </div>
+                <div class="group__feature-tab">
+                    <div class="group__feature_name">Betyg</div> 
+                </div>
+                <div class="group__feature-tab">
+                    <div class="group__feature_name">Studenter</div>
+                </div>
+                <div class="group__feature-tab">
+                    <div class="group__feature_name">Personal</div>
+                </div>
+                <div class="group__feature-tab">
+                    <div class="group__feature_name">Om</div>
+                </div>
+            </div>
+        </div>       
+    </div>
+    <div class="group__breadcrumbs">
+        <a href="group-start-page.html">Innehåll</a> <span>/</span><span>Syntax</span>
+    </div>
+    <div class="group__course-item-content">
+        <h2 class="group__course-item-title">Syntax</h2>
+        <div class="group__course-item-menu-tabs">
+                <a class="group__course-item-menu-tab SELECTED">
+                    Planering
+                </a>
+                <a class="group__course-item-menu-tab" href="">
+                    Uppföljning
+                </a>
+        </div>       
+        <div class="group__course-item-settings">
+                <div class="group__course-item-settings-content">
+                    <div class="group__course-item-settings-item">
+                        <div class="group__course-item-settings-item-name">
+                            Uppgift
+                        </div>
+                        <div class="group__course-item-settings-item-state">
+                            Inlämningsuppgift
+                        </div>
+                    </div>
+                    <div class="group__course-item-settings-item">
+                        <div class="group__course-item-settings-item-name">
+                            Tid
+                        </div>
+                        <div class="group__course-item-settings-item-state">
+                            Ingen tid angiven
+                        </div>
+                    </div>
+                    <div class="group__course-item-settings-item">
+                        <div class="group__course-item-settings-item-name">
+                            Plats
+                        </div>
+                        <div class="group__course-item-settings-item-state">
+                            Ingen plats angiven                            
+                        </div>
+                    </div>
+                    <div class="group__course-item-settings-item">
+                        <div class="group__course-item-settings-item-name">
+                            Betyg
+                        </div>
+                        <div class="group__course-item-settings-item-state">
+                            IG-VG
+                        </div>
+                    </div>
+                    <div class="group__course-item-settings-item">
+                        <div class="group__course-item-settings-item-name">
+                            Bilagor
+                        </div>
+                        <div class="group__course-item-settings-item-state">
+                            
+                        </div>
+                    </div>
+                    <div class="group__course-item-settings-item">
+                        <div class="group__course-item-settings-item-name">
+                            Innehållets synlighet
+                        </div>
+                        <div class="group__course-item-settings-item-state">
+                            Synlig direkt
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="group__course-item-description">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vestibulum facilisis lectus. Etiam euismod ac quam id hendrerit. Sed sit amet fermentum ex. Quisque venenatis nunc erat, in aliquam lorem hendrerit et. Duis ut aliquet erat. Cras non gravida felis. Donec vitae eleifend ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed et velit nec nisl blandit maximus. Phasellus fermentum mauris in odio laoreet, quis hendrerit mi hendrerit. Fusce et lacus vehicula, auctor augue quis, posuere purus. Donec vitae scelerisque est, in ultricies ipsum. Ut euismod interdum diam vel iaculis. Praesent ac rhoncus tellus. Duis posuere mauris et turpis finibus maximus. Fusce ultricies nunc ut sodales elementum.</p>
+
+            <p>Phasellus eget dui malesuada, hendrerit arcu id, laoreet augue. Nulla feugiat sollicitudin odio, feugiat vehicula dui ullamcorper eget. Sed ut nulla in leo pellentesque congue. Quisque nec turpis nec risus fringilla iaculis. Donec vitae diam ac ligula cursus semper. Etiam volutpat neque a accumsan pulvinar. Nulla a egestas massa, id congue lorem.</p>
+
+            <p>Pellentesque id eleifend nibh. Aenean suscipit feugiat massa id tincidunt. Nullam blandit nulla at erat porta pharetra. Quisque varius sem nec mauris ultrices rhoncus. Cras eu felis leo. Donec condimentum volutpat nulla, a efficitur lorem faucibus nec. Morbi ultricies malesuada dolor sit amet dapibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla non purus quis ipsum imperdiet varius sed vitae sapien. Suspendisse suscipit feugiat libero, aliquet volutpat turpis volutpat commodo. Etiam accumsan sit amet nulla vitae volutpat. Sed sed metus vitae odio efficitur tempus at eget nisi. Donec pellentesque, mi id porttitor auctor, ex libero aliquet felis, quis pharetra nibh orci et nisi. Duis mattis sodales velit in efficitur. Aliquam aliquam mauris elit, in vestibulum lectus euismod sed. Donec quis laoreet risus.</p>
+        </div>
     </div>
 </div>
     </main>

@@ -2,6 +2,12 @@
     {
         "title": "A",
         "description": "",
+        "url": "/a/all-groups.html",
+        "content": "Grupper Grupp Kod Kategori Start Slut Showcase Academy ShowcaseAcademy Skola Arbetsledning BPL18_AL Kurs 2022-08-29 2024-10-14 Byggprocesstyrning BPL18_BPS Kurs 2024-08-13 2024-12-14 Byggproduktionsteknik BPL18_BPT Kurs 2024-08-13 2024-12-14 Byggteknisk fördjupning BPL18_ByF Kurs 2024-08-13 2024-12-14 Ekonomi och kalkylering BPL18_EoK Kurs 2024-08-13 2024-12-14 Hållbart byggande BPL18_HBy Kurs 2024-08-13 2024-12-14 LIA 1 BPL18_LIA1 Kurs 2024-08-13 2024-12-14 Mätning och utsättning BPL18_MoU Kurs 2024-08-13 2024-12-14"
+    },
+    {
+        "title": "A",
+        "description": "",
         "url": "/a/group-content-page.html",
         "content": "Advanced JavaScript / Innehåll /Syntax Syntax Planering Uppföljning Uppgift Inlämningsuppgift Tid Ingen tid angiven Plats Ingen plats angiven Betyg IG-VG Bilagor Innehållets synlighet Synlig direkt Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vestibulum facilisis lectus. Etiam euismod ac quam id hendrerit. Sed sit amet fermentum ex. Quisque venenatis nunc erat, in aliquam lorem hendrerit et. Duis ut aliquet erat. Cras non gravida felis. Donec vitae eleifend ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed et velit nec nisl blandit maximus. Phasellus fermentum mauris in odio laoreet, quis hendrerit mi hendrerit. Fusce et lacus vehicula, auctor augue quis, posuere purus. Donec vitae scelerisque est, in ultricies ipsum. Ut euismod interdum diam vel iaculis. Praesent ac rhoncus tellus. Duis posuere mauris et turpis finibus maximus. Fusce ultricies nunc ut sodales elementum. Phasellus eget dui malesuada, hendrerit arcu id, laoreet augue. Nulla feugiat sollicitudin odio, feugiat vehicula dui ullamcorper eget. Sed ut nulla in leo pellentesque congue. Quisque nec turpis nec risus fringilla iaculis. Donec vitae diam ac ligula cursus semper. Etiam volutpat neque a accumsan pulvinar. Nulla a egestas massa, id congue lorem. Pellentesque id eleifend nibh. Aenean suscipit feugiat massa id tincidunt. Nullam blandit nulla at erat porta pharetra. Quisque varius sem nec mauris ultrices rhoncus. Cras eu felis leo. Donec condimentum volutpat nulla, a efficitur lorem faucibus nec. Morbi ultricies malesuada dolor sit amet dapibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla non purus quis ipsum imperdiet varius sed vitae sapien. Suspendisse suscipit feugiat libero, aliquet volutpat turpis volutpat commodo. Etiam accumsan sit amet nulla vitae volutpat. Sed sed metus vitae odio efficitur tempus at eget nisi. Donec pellentesque, mi id porttitor auctor, ex libero aliquet felis, quis pharetra nibh orci et nisi. Duis mattis sodales velit in efficitur. Aliquam aliquam mauris elit, in vestibulum lectus euismod sed. Donec quis laoreet risus."
     },
@@ -33,25 +39,49 @@
         "title": "A",
         "description": "",
         "url": "/a/index.html",
-        "content": "Learnpoint Academy Skola • Learnpoint Academy Frontend utveckling Klass • FEU24 Interaction Design Kurs • IDU24 LIA Kurs • LIA24 User testing Kurs • UTUX24 Advanced Javascript Kurs • AJ124 Javascript 2 Kurs • JA124"
+        "content": "Learnpoint Academy Skola • Learnpoint Academy Frontend utveckling Klass • FEU24 Interaction Design Kurs • IDU24 LIA Kurs • LIA24 User testing Kurs • UTUX24 Advanced Javascript Kurs • AJ124 Javascript 2 Kurs • JA124 Visa alla grupper"
+    },
+    {
+        "title": "B",
+        "description": "",
+        "url": "/b/all-groups.html",
+        "content": "Grupper Grupp Kod Kategori Start Slut Showcase Academy ShowcaseAcademy Skola Arbetsledning BPL18_AL Kurs 2022-08-29 2024-10-14 Byggprocesstyrning BPL18_BPS Kurs 2024-08-13 2024-12-14 Byggproduktionsteknik BPL18_BPT Kurs 2024-08-13 2024-12-14 Byggteknisk fördjupning BPL18_ByF Kurs 2024-08-13 2024-12-14 Ekonomi och kalkylering BPL18_EoK Kurs 2024-08-13 2024-12-14 Hållbart byggande BPL18_HBy Kurs 2024-08-13 2024-12-14 LIA 1 BPL18_LIA1 Kurs 2024-08-13 2024-12-14 Mätning och utsättning BPL18_MoU Kurs 2024-08-13 2024-12-14"
+    },
+    {
+        "title": "A",
+        "description": "",
+        "url": "/b/group-content-page.html",
+        "content": "Advanced JavaScript / Innehåll /Syntax Syntax Planering Uppföljning Uppgift Inlämningsuppgift Tid Ingen tid angiven Plats Ingen plats angiven Betyg IG-VG Bilagor Innehållets synlighet Synlig direkt Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vestibulum facilisis lectus. Etiam euismod ac quam id hendrerit. Sed sit amet fermentum ex. Quisque venenatis nunc erat, in aliquam lorem hendrerit et. Duis ut aliquet erat. Cras non gravida felis. Donec vitae eleifend ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed et velit nec nisl blandit maximus. Phasellus fermentum mauris in odio laoreet, quis hendrerit mi hendrerit. Fusce et lacus vehicula, auctor augue quis, posuere purus. Donec vitae scelerisque est, in ultricies ipsum. Ut euismod interdum diam vel iaculis. Praesent ac rhoncus tellus. Duis posuere mauris et turpis finibus maximus. Fusce ultricies nunc ut sodales elementum. Phasellus eget dui malesuada, hendrerit arcu id, laoreet augue. Nulla feugiat sollicitudin odio, feugiat vehicula dui ullamcorper eget. Sed ut nulla in leo pellentesque congue. Quisque nec turpis nec risus fringilla iaculis. Donec vitae diam ac ligula cursus semper. Etiam volutpat neque a accumsan pulvinar. Nulla a egestas massa, id congue lorem. Pellentesque id eleifend nibh. Aenean suscipit feugiat massa id tincidunt. Nullam blandit nulla at erat porta pharetra. Quisque varius sem nec mauris ultrices rhoncus. Cras eu felis leo. Donec condimentum volutpat nulla, a efficitur lorem faucibus nec. Morbi ultricies malesuada dolor sit amet dapibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla non purus quis ipsum imperdiet varius sed vitae sapien. Suspendisse suscipit feugiat libero, aliquet volutpat turpis volutpat commodo. Etiam accumsan sit amet nulla vitae volutpat. Sed sed metus vitae odio efficitur tempus at eget nisi. Donec pellentesque, mi id porttitor auctor, ex libero aliquet felis, quis pharetra nibh orci et nisi. Duis mattis sodales velit in efficitur. Aliquam aliquam mauris elit, in vestibulum lectus euismod sed. Donec quis laoreet risus."
+    },
+    {
+        "title": "A",
+        "description": "",
+        "url": "/b/group-page.channel.html",
+        "content": "Git Advanced JavaScript"
+    },
+    {
+        "title": "B",
+        "description": "",
+        "url": "/b/group-page.channels.html",
+        "content": "Advanced JavaScript Kurs • AJ2024 Innehåll Nyheter Kanaler Kalender Betyg Studenter Personal Om Git # Git # Project # JavaScript"
     },
     {
         "title": "B",
         "description": "",
         "url": "/b/group-page.html",
-        "content": "Learnpoint Academy Innehåll"
+        "content": "Advanced JavaScript Kurs • AJ2024 Innehåll Nyheter Kanaler Kalender Betyg Studenter Personal Om Innehåll /Syntax Syntax Planering Uppföljning Uppgift Inlämningsuppgift Tid Ingen tid angiven Plats Ingen plats angiven Betyg IG-VG Bilagor Innehållets synlighet Synlig direkt Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vestibulum facilisis lectus. Etiam euismod ac quam id hendrerit. Sed sit amet fermentum ex. Quisque venenatis nunc erat, in aliquam lorem hendrerit et. Duis ut aliquet erat. Cras non gravida felis. Donec vitae eleifend ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed et velit nec nisl blandit maximus. Phasellus fermentum mauris in odio laoreet, quis hendrerit mi hendrerit. Fusce et lacus vehicula, auctor augue quis, posuere purus. Donec vitae scelerisque est, in ultricies ipsum. Ut euismod interdum diam vel iaculis. Praesent ac rhoncus tellus. Duis posuere mauris et turpis finibus maximus. Fusce ultricies nunc ut sodales elementum. Phasellus eget dui malesuada, hendrerit arcu id, laoreet augue. Nulla feugiat sollicitudin odio, feugiat vehicula dui ullamcorper eget. Sed ut nulla in leo pellentesque congue. Quisque nec turpis nec risus fringilla iaculis. Donec vitae diam ac ligula cursus semper. Etiam volutpat neque a accumsan pulvinar. Nulla a egestas massa, id congue lorem. Pellentesque id eleifend nibh. Aenean suscipit feugiat massa id tincidunt. Nullam blandit nulla at erat porta pharetra. Quisque varius sem nec mauris ultrices rhoncus. Cras eu felis leo. Donec condimentum volutpat nulla, a efficitur lorem faucibus nec. Morbi ultricies malesuada dolor sit amet dapibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla non purus quis ipsum imperdiet varius sed vitae sapien. Suspendisse suscipit feugiat libero, aliquet volutpat turpis volutpat commodo. Etiam accumsan sit amet nulla vitae volutpat. Sed sed metus vitae odio efficitur tempus at eget nisi. Donec pellentesque, mi id porttitor auctor, ex libero aliquet felis, quis pharetra nibh orci et nisi. Duis mattis sodales velit in efficitur. Aliquam aliquam mauris elit, in vestibulum lectus euismod sed. Donec quis laoreet risus."
     },
     {
         "title": "B",
         "description": "",
         "url": "/b/group-start-page.html",
-        "content": "Learnpoint Academy Innehåll Nyheter Kanaler Kalendar Betyg Studenter Personal Nytt avsnitt Importera innehåll"
+        "content": "Advanced JavaScript Kurs • AJ2024 Innehåll Nyheter Kanaler Kalender Betyg Studenter Personal Om Overview Syntax Fundamentals of HTML Fundamentals of CSS Functions Ny kursdel Git and Github Project Deployment Ny kursdel Nytt avsnitt Importera innehåll"
     },
     {
         "title": "B",
         "description": "",
         "url": "/b/index.html",
-        "content": "Learnpoint Academy Skola • Learnpoint Academy Frontend utveckling Klass • FEU24 Interaction Design Kurs • IDU24 LIA Kurs • LIA24 User testing Kurs • UTUX24 Advanced Javascript Kurs • AJ124 Javascript 2 Kurs • JA124"
+        "content": "Learnpoint Academy Skola • Learnpoint Academy Frontend utveckling Klass • FEU24 Interaction Design Kurs • IDU24 LIA Kurs • LIA24 User testing Kurs • UTUX24 Advanced Javascript Kurs • AJ124 Javascript 2 Kurs • JA124 Visa alla grupper"
     },
     {
         "title": "C",
@@ -159,6 +189,24 @@
         "title": "G",
         "description": "",
         "url": "/g/index.html",
+        "content": "Learnpoint Academy Skola • Learnpoint Academy Frontend utveckling Klass • FEU24 Interaction Design Kurs • IDU24 LIA Kurs • LIA24 User testing Kurs • UTUX24 Advanced Javascript Kurs • AJ124 Javascript 2 Kurs • JA124"
+    },
+    {
+        "title": "H",
+        "description": "",
+        "url": "/h/group-page.html",
+        "content": "Learnpoint Academy Innehåll"
+    },
+    {
+        "title": "H",
+        "description": "",
+        "url": "/h/group-start-page.html",
+        "content": "Advanced JavaScript Innehåll Nyheter Kanaler Kalendar Betyg Studenter Personal Overview Syntax Fundamentals of HTML Fundamentals of CSS Functions Ny kursdel Git and Github Project Deployment Ny kursdel Nytt avsnitt Importera innehåll"
+    },
+    {
+        "title": "H",
+        "description": "",
+        "url": "/h/index.html",
         "content": "Learnpoint Academy Skola • Learnpoint Academy Frontend utveckling Klass • FEU24 Interaction Design Kurs • IDU24 LIA Kurs • LIA24 User testing Kurs • UTUX24 Advanced Javascript Kurs • AJ124 Javascript 2 Kurs • JA124"
     },
     {
