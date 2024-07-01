@@ -112,12 +112,14 @@ nav {
     max-width: 768px;
     margin: 0 auto;
     position: absolute;
+    top: 46px;
     left: 0;
     right: 0;
     margin: auto;
     visibility: hidden;
     opacity: 0;
     transition: opacity .3s ease, visibility  .2s ease;
+    z-index: 1000;
 }
 
 .is-mobile .notifications {
@@ -126,9 +128,9 @@ nav {
 }
 
 .notifications:after {
-    content:'';
+    content: '';
     position: absolute;
-    top:-10px;
+    top: -10px;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -137,12 +139,13 @@ nav {
     border-bottom: 10px solid #fff;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
+    z-index: 1000;
 }
 
 .notifications:before {
-    content:'';
+    content: '';
     position: absolute;
-    top:-11px;
+    top: -11px;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -151,6 +154,7 @@ nav {
     border-bottom: 11px solid #eee;
     border-left: 11px solid transparent;
     border-right: 11px solid transparent;
+    z-index: 1000;
 }
 
 .notifications.OPEN {
@@ -163,6 +167,7 @@ nav {
 
 .notifications__container {
     padding: 32px;
+    background-color: #fff;
     background-color: #fff;
 }
 
@@ -330,13 +335,22 @@ nav {
 }
 
 .school-groups__list-item {
-    box-shadow: 0 -1px 1px hsla( 32.2, 20.2%, 60.2% , 0.05), 0 1px 2px -0.5px hsla( 32.2, 20.2%, 60.2% , 0.1) , 0 2px 4px -1px hsla( 32.2, 20.2%, 60.2% , 0.2) , 0 4px 8px -2px hsla( 32.2, 20.2%, 60.2% , 0.2);
+    /* box-shadow: 0 -1px 1px hsla( 32.2, 20.2%, 60.2% , 0.05), 0 1px 2px -0.5px hsla( 32.2, 20.2%, 60.2% , 0.1) , 0 2px 4px -1px hsla( 32.2, 20.2%, 60.2% , 0.2) , 0 4px 8px -2px hsla( 32.2, 20.2%, 60.2% , 0.2);
     width: 240px;
     height: 125px;
     background-color: #fff;
     padding: 16px;
     box-sizing: border-box;
+    border-radius: 10px; */
+    width: 240px;
+    height: 120px;
+    border: 1px solid #dbdbdb;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-sizing: border-box;
     border-radius: 10px;
+    position: relative;
+    overflow: hidden;
 }
 
 .is-mobile .school-groups__list-item {
@@ -344,21 +358,38 @@ nav {
 }
 
 
+
 .school-groups__list-item-link {
+    /* color: #000;
+    text-decoration: none;
+    font-weight: 600; */
     color: #000;
     text-decoration: none;
     font-weight: 600;
+    font-weight: bold;
+    padding: 16px 16px 4px 16px;
+    display: block;
+    font-size: 18px;
+    font-size: 16px;
 }
 
 .school-groups__list-item-type {
-    display: block;
+    /* display: block;
     margin: 4px 0;
     color: #aaa;
     text-transform: uppercase;
     letter-spacing: 1px;
+    font-size: 11px; */
+    display: block;
+    padding: 0 16px;
+    color: #444;
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    letter-spacing: normal;
     font-size: 11px;
+    font-size: 13px;
 }
-
 .school-groups__show-all {
     text-align: center;
     margin: 16px;
@@ -382,7 +413,7 @@ nav {
 .group__feature {
     width: 25%;
     font-weight: 600;
-    height: 150px;
+    height: 135px;
     border: 1px solid #0000001a;
     border-radius: 6px;
     padding: 16px;
