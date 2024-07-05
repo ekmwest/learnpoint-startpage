@@ -1,7 +1,7 @@
 body {
     font-family: -apple-system, "Segoe UI", Helvetica, sans-serif;
     background-color: #fffcf9;
-    background-color: #fafafa;
+    /* background-color: #fafafa; */
 }
 
 main {
@@ -20,7 +20,7 @@ nav {
     left: 0;
     right: 0;
     background-color: #fffcf9;
-    background-color: #fafafa;
+    /* background-color: #fafafa; */
     z-index: 1000;
 }
 
@@ -72,11 +72,12 @@ nav {
     display: flex;
     align-items: center;
     gap:6px;
-    color: #0063ca;
 }
 
 .is-mobile .top-nav__link {
-    font-size: 15px;
+    font-size: 12px;
+    gap:4px;
+    flex-direction: column;
 }
 
 .top-nav__icon {
@@ -105,6 +106,31 @@ nav {
     height: 2em;
 }
 
+.top-nav__unread-badge {
+    position: absolute;
+    top: 13px;
+    margin-left: 6px;
+    font-size: 10px;
+    display: inline-flex;
+    inline-size: 13px;
+    block-size: 13px;
+    line-height: 13px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #f34906;
+    border: 1px solid #f34906;
+    border-radius: 50%;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.is-mobile .top-nav__unread-badge {
+    top: 9px;
+    margin-left: 14px;
+}
+
 .notifications {
     background-color: #fff;
     box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
@@ -120,6 +146,10 @@ nav {
     opacity: 0;
     transition: opacity .3s ease, visibility  .2s ease;
     z-index: 10000;
+}
+
+.is-mobile .notifications {
+    top: 64px;
 }
 
 .is-mobile .notifications {
@@ -272,6 +302,78 @@ nav {
      text-decoration: none;
 }
 
+.profile-menu {
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+    border-radius: 6px;
+    min-width: 250px;
+    margin: 0 auto;
+    position: absolute;
+    right: 6px;
+    top: 52px;
+    z-index: 1000;
+    display: none;
+}
+
+.profile-menu:after {
+    content:'';
+    position: absolute;
+    top:-8px;
+    right: 8px;
+    width: 0;
+    height: 0;
+    border-bottom: 8px solid #fff;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+}
+
+.profile-menu:before {
+    content: '';
+    position: absolute;
+    top: -9px;
+    right: 7px;
+    width: 0;
+    height: 0;
+    border-bottom: 9px solid #eee;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+}
+
+.profile-menu.OPEN {
+    display: block;
+}
+
+
+.profile-menu__container {
+    padding: 16px;
+}
+
+.profile-menu__heading {
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+
+.profile-menu__items {
+    
+}
+
+.profile-menu__item-heading {
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.profile-menu__item {
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.profile-menu__item:last-child {
+    margin-bottom: 0;
+  }
+  
+  
+
 .school__logo {
     width: 240px;
     margin: 32px auto;
@@ -367,9 +469,11 @@ nav {
     font-weight: 600;
     font-weight: bold;
     padding: 16px 16px 4px 16px;
+    padding: 0 16px;
     display: block;
     font-size: 18px;
     font-size: 16px;
+    line-height: 1.2;
 }
 
 .school-groups__list-item-type {
@@ -381,6 +485,7 @@ nav {
     font-size: 11px; */
     display: block;
     padding: 0 16px;
+    padding: 16px 16px 2px 16px;
     color: #444;
     color: #555;
     text-transform: uppercase;

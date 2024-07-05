@@ -105,6 +105,25 @@ nav {
     height: 2em;
 }
 
+.top-nav__unread-badge {
+    position: absolute;
+    top: 10px;
+    margin-left: 8px;
+    font-size: 10px;
+    display: inline-flex;
+    inline-size: 14px;
+    block-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #f31506;
+    border: 1px solid #f31506;
+    border-radius: 50%;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
 .notifications {
     background-color: #fff;
     box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
@@ -342,8 +361,8 @@ nav {
     padding: 16px;
     box-sizing: border-box;
     border-radius: 10px; */
-    width: 240px;
-    height: 120px;
+    width: 250px;
+    height: 140px;
     border: 1px solid #dbdbdb;
     border: 1px solid #ccc;
     background-color: #fff;
@@ -366,11 +385,11 @@ nav {
     color: #000;
     text-decoration: none;
     font-weight: 600;
-    font-weight: bold;
-    padding: 16px 16px 4px 16px;
+    font-weight: bold; 
     display: block;
     font-size: 18px;
-    font-size: 16px;
+    font-size: 16px; 
+    padding: 0 16px;
 }
 
 .school-groups__list-item-type {
@@ -382,14 +401,26 @@ nav {
     font-size: 11px; */
     display: block;
     padding: 0 16px;
+    
+    padding: 16px 16px 0px 16px;
     color: #444;
     color: #555;
+    color: #777;
     text-transform: uppercase;
     letter-spacing: 1px;
-    letter-spacing: normal;
-    font-size: 11px;
-    font-size: 13px;
+    /* letter-spacing: normal; */
+    font-size: 10px;
+    /* font-size: 12px; */
 }
+
+.school-groups__list-item-date {
+    color: #999;
+    display: block;
+    font-size: 12px;
+    margin-top: 40px;
+    padding: 16px;
+}
+
 .school-groups__show-all {
     text-align: center;
     margin: 16px;
