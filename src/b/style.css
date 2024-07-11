@@ -61,7 +61,8 @@ nav {
 }
 
 .is-mobile .top-nav {
-    gap: 20px;
+    gap: 24px;
+    align-items: baseline;
     margin: 16px 0;
 }
 
@@ -72,13 +73,12 @@ nav {
     display: flex;
     align-items: center;
     gap:6px;
-    x
     flex-shrink:unset;
 }
 
 .is-mobile .top-nav__link {
-    font-size: 12px;
-    gap:4px;
+    font-size: 10px;
+    gap: 0;
     flex-direction: column;
 }
 
@@ -91,6 +91,10 @@ nav {
     position: absolute;
     right: 42px;
     top:8px;
+}
+
+.is-mobile .top-nav__user-profile {
+    top:16px;
 }
 
 .top-nav__avatar {
@@ -107,6 +111,12 @@ nav {
     top:8px;
     opacity: 0.7;
 }
+
+.is-mobile .top-nav__help-page-link {
+    right: 8px;
+    top:16px;
+}
+
 
 .top-nav__help-icon {
     /* position: absolute;
@@ -444,6 +454,10 @@ nav {
     justify-content: center;
 }
 
+.is-mobile .school-groups__list {
+    flex-wrap: wrap;
+}
+
 .school-groups__list-item {
     /* box-shadow: 0 -1px 1px hsla( 32.2, 20.2%, 60.2% , 0.05), 0 1px 2px -0.5px hsla( 32.2, 20.2%, 60.2% , 0.1) , 0 2px 4px -1px hsla( 32.2, 20.2%, 60.2% , 0.2) , 0 4px 8px -2px hsla( 32.2, 20.2%, 60.2% , 0.2);
     width: 240px;
@@ -464,7 +478,7 @@ nav {
 }
 
 .is-mobile .school-groups__list-item {
-    width: 90%;
+    width: 45%;
 }
 
 
