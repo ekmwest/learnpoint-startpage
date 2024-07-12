@@ -335,7 +335,7 @@ nav {
     content: '';
     position: absolute;
     top: -9px;
-    right: 40px;
+    right: 12px;
     width: 0;
     height: 0;
     border-bottom: 9px solid #eee;
@@ -347,7 +347,7 @@ nav {
     content:'';
     position: absolute;
     top:-8px;
-    right: 41px;
+    right: 13px;
     width: 0;
     height: 0;
     border-bottom: 8px solid #fff;
@@ -406,7 +406,7 @@ nav {
     content: '';
     position: absolute;
     top: -9px;
-    right: 56px;
+    right: 40px;
     width: 0;
     height: 0;
     border-bottom: 9px solid #eee;
@@ -418,7 +418,7 @@ nav {
     content:'';
     position: absolute;
     top:-8px;
-    right: 57px;
+    right: 41px;
     width: 0;
     height: 0;
     border-bottom: 8px solid #fff;
