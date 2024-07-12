@@ -1,11 +1,10 @@
 body {
     font-family: -apple-system, "Segoe UI", Helvetica, sans-serif;
     background-color: #fffcf9;
-    background-color: #fafafa;
 }
 
 main {
-    max-width: 1208px;
+    max-width: 1200px;
     margin:64px auto;
     border-radius: .5em;
 }
@@ -20,7 +19,6 @@ nav {
     left: 0;
     right: 0;
     background-color: #fffcf9;
-    background-color: #fafafa;
     z-index: 1000;
 }
 
@@ -56,7 +54,7 @@ nav {
 .top-nav {
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 72px;
     margin: 16px 0;
 }
 
@@ -72,7 +70,13 @@ nav {
     display: flex;
     align-items: center;
     gap:6px;
-    color: #0063ca;
+}
+
+
+.top-nav__link svg {
+  width: 20px;
+  height: 20px;
+  opacity: 0.7;
 }
 
 .is-mobile .top-nav__link {
@@ -85,35 +89,43 @@ nav {
 
 .top-nav__user-profile {
     position: absolute;
-    right: 8px;
-    top:8px;
+    right: 42px;
+    top:16px;
+}
+
+.is-mobile .top-nav__user-profile {
+    top:16px;
 }
 
 .top-nav__avatar {
     display: block;
     border-radius: 50%;
     cursor: pointer;
-    width: 2em;
-    height: 2em;
+    width: 24px;
+    height: 24px;
 }
 
-.is-mobile .top-nav__avatar {
-    display: block;
-    border-radius: 50%;
-    cursor: pointer;
-    width: 2em;
-    height: 2em;
+.top-nav__help-page-link {
+    position: absolute;
+    right: 8px;
+    top:16px;
+    opacity: 0.7;
+}
+
+.is-mobile .top-nav__help-page-link {
+    right: 8px;
+    top:16px;
 }
 
 .top-nav__unread-badge {
     position: absolute;
-    top: 10px;
-    margin-left: 8px;
-    font-size: 10px;
+    top: 8px;
+    margin-left: 10px;
+    font-size: 12px;
     display: inline-flex;
-    inline-size: 14px;
-    block-size: 14px;
-    line-height: 14px;
+    inline-size: 18px;
+    block-size: 18px;
+    line-height: 18px;
     text-align: center;
     font-weight: bold;
     background-color: #f31506;
@@ -123,6 +135,8 @@ nav {
     justify-content: center;
     align-items: center;
 }
+
+
 
 .notifications {
     background-color: #fff;
@@ -150,7 +164,7 @@ nav {
     content: '';
     position: absolute;
     top: -10px;
-    left: 0;
+    left: -92px;
     right: 0;
     margin: 0 auto;
     width: 0;
@@ -165,7 +179,7 @@ nav {
     content: '';
     position: absolute;
     top: -11px;
-    left: 0;
+    left: -93px;
     right: 0;
     margin: 0 auto;
     width: 0;
@@ -361,8 +375,8 @@ nav {
     padding: 16px;
     box-sizing: border-box;
     border-radius: 10px; */
-    width: 250px;
-    height: 140px;
+    width: 240px;
+    height: 120px;
     border: 1px solid #dbdbdb;
     border: 1px solid #ccc;
     background-color: #fff;
@@ -419,16 +433,17 @@ nav {
     font-size: 12px;
     margin-top: 40px;
     padding: 16px;
+    display: none;
 }
 
 .school-groups__show-all {
     text-align: center;
-    margin: 16px;
+    margin: 28px;
 }
 
 .school-groups__show-all-link {
     color: #555;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 

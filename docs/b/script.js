@@ -27,3 +27,19 @@ document.addEventListener('click', event => {
     profileMenu.classList.toggle('OPEN');  
   
 });
+
+
+document.addEventListener('click', event => {
+
+    const toggleButton = event.target.closest('[data-element="context-menu.toggle-button"]');
+    if (!toggleButton) {
+        return;
+    }
+    const contextMenu = document.querySelector('[data-component="context-menu"]');
+    if(!contextMenu) {
+        return;
+    }
+
+    contextMenu.classList.toggle('OPEN');  
+  
+});
