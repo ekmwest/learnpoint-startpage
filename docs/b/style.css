@@ -158,9 +158,11 @@ nav {
     left: 0;
     right: 0;
     margin: auto;
-    visibility: hidden;
+    height: 0;  
+    overflow: hidden;
+    /* visibility: hidden;
     opacity: 0;
-    transition: opacity .3s ease, visibility  .2s ease;
+    transition: opacity .3s ease, visibility  .2s ease; */
     z-index: 10000;
 }
 
@@ -205,9 +207,11 @@ nav {
 
 .notifications.OPEN {
     /* display: block; */
-    visibility: visible;
+    /* visibility: visible;
     opacity: 1;
-    transition: opacity .3s ease, visibility  .2s ease;
+    transition: opacity .3s ease, visibility  .2s ease; */
+    transition: height .15s;
+    height: 458px;
 }
 
 
@@ -723,15 +727,14 @@ nav {
 
 
 .group__breadcrumbs {
-    max-width: 984px;
-    max-width: 968px;
+    max-width: 980px;
     display: flex;
     align-items: center;
     justify-content: left;
     gap: 8px;
-    margin:24px auto 0;
+    margin: 24px auto 0;
     font-size: 13px;
-    padding: 4px 8px;
+    padding: 4px 8px 8px;
 }
 
 .group__breadcrumbs a:visited {

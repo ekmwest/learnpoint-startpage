@@ -1,13 +1,29 @@
 <header>
-    <div class="learnpoint-startpages__button">
-        <a href="/" class="learnpoint-startpages__link"><img src="/_images/_global/arrow-left-circle.svg" class="learnpoint-startpages__link-icon"><span></span></a>
-    </div>
-    <nav class="top-nav">
-        <a href="/h" class="top-nav__link"><img src="/_images/_global/house-fill.svg" class="top-nav__icon"><span>Home</span></a>
-        <a href="#" class="top-nav__link"> <img src="/_images/_global/bell-fill.svg" class="top-nav__icon"><span>Notifications</span></a>
-        <a href="#" class="top-nav__link"><img src="/_images/_global/chat-fill.svg" class="top-nav__icon"><span>Chat</span></a>
+    <nav>
+        <div class="learnpoint-startpages__button">
+            <a href="/" class="learnpoint-startpages__link"><img src="/_images/_global/arrow-left-circle.svg" class="learnpoint-startpages__link-icon"><span></span></a>
+        </div>
+        <div class="top-nav">
+            <a href="/h" class="top-nav__link">
+                <!-- _global/house-door-fill.svg -->
+               <span>Hem</span>
+           </a>  
+            <a href="#" class="top-nav__link" data-element="notifications-popover.toggle-button">
+                <!-- _global/bell-fill.svg -->
+                <span>Aviseringar</span>
+                <span class="top-nav__unread-badge">2</span>
+            </a>         
+            <a class="top-nav__link"> 
+                <!-- _global/question-circle.svg -->                
+               <span>Hjälp</span>
+            </a> 
+            <a href="#" class="top-nav__link" data-element="context-menu.toggle-button">
+                <!-- _global/more-options-icon.svg -->
+                <span>Mer</span>
+            </a>
+        </div>
+        <div class="top-nav__user-profile">
+            <img src="/_images/_global/ProfileImage.jpg" class="top-nav__avatar" data-element="profile-menu.toggle-button">
+        </div>
     </nav>
-    <div class="top-nav__user-profile">
-        <img src="/_images/_global/ProfileImage.jpg" class="top-nav__avatar">
-    </div>
 </header>
