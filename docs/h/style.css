@@ -274,8 +274,9 @@ h1 {
 
 .group__name {
     text-align: center;
-    margin: 16px 0;
+    margin: 8px 0;
     font-size: 24px;
+    font-weight: 600;
 }
 
 .group__features {
@@ -351,8 +352,9 @@ h1 {
     align-items: center;
     justify-content: center;
     gap: 16px;
-    font-size: 16px;
+    font-size: 15px;
     border-bottom: 1px solid #0000001a;
+    margin-top: 12px;
 }
 
 .group__feature-tab  {
@@ -375,7 +377,7 @@ h1 {
 }
 
 .group__course-content {
-    max-width: 960px;
+    max-width: 860px;
     margin: 16px auto;
 }
 
@@ -458,12 +460,12 @@ h1 {
 }
 
 .group__breadcrumbs {
-    max-width: 980px;
+    max-width: 900px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 8px;
-    margin: 16px auto 0;
+    margin: 16px auto 8px;
     font-size: 13px;
     padding: 4px 8px 8px;
 }
@@ -471,6 +473,7 @@ h1 {
 .group__breadcrumbs a:visited {
     text-decoration: none;   
     color:#0079f2; 
+    color: #000;
 }
 
 .group__course-item-title {
@@ -567,4 +570,280 @@ h1 {
     margin: 12px auto;
     line-height: 1.8;
     margin-bottom: 32px;
+}
+
+
+.group__news {
+    padding: 32px;
+}
+
+.group__news-actions {
+
+} 
+
+.group__news-action {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.02));
+    background-color: #fff;
+    border: 1px solid #b5b5b5;
+    padding: 0.8em 1.5em;
+    border-radius: 99rem;
+    color: #111;
+    color: inherit;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 16px;
+    outline: 0;
+    padding: 8px 18px;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: baseline;
+    margin-bottom: 16px;
+}
+
+.group__news-action.PRIMARY {
+    background-color: #0079f2 ;
+    border-color: #0079f2;
+    color: #fff;
+}
+
+.group__news-items {
+
+}
+
+.group__news-item-link {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 8px;
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.group__news-item-link:last-child {
+    border-bottom: none;
+}
+
+.group__news-item-author {
+    font-size: 1.2em;
+}
+
+.group__news-item-author-avatar {
+    display: block;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 2.5em;
+    height: 2.5em;
+}
+
+.group__news-item-content {
+    overflow: hidden;
+    flex: 1;
+}
+
+.group__news-item-title {
+    font-weight: 600;
+    font-size: 16px;
+    word-wrap: break-word;
+}
+
+.group__news-item-meta {
+    font-size: 14px;
+    color: #666;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 6px;
+    margin-top: 2px;
+}
+
+.group__news-item {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.group__news-item-title-text {
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.2em;
+    line-height: 1;
+    margin: 0;
+    word-wrap: break-word;
+}
+
+.group__news-item-title-divider {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 16px auto 12px;
+    max-width: 240px;
+}
+
+.group__news-item-meta-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 32px;
+    gap: 8px;
+    font-size: 14px;
+}
+
+.group__news-item-author-img {
+    display: block;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 2em;
+    height: 2em;
+    transition: all .1s;
+}
+
+.group__news-item-author-name {
+
+}
+
+.group__news-item-published-date {
+
+}
+
+.group__news-item-description {
+    padding-bottom: 24px;
+    line-height: 1.5;
+}
+
+.group__course-channel {
+    /* max-width: 960px;*/
+    margin: 16px auto -16px; 
+    border-radius: 12px;
+    background-color: #fff;
+    /* height: 800px; */
+    display: flex;
+ }
+
+ .is-mobile .group__course-channel {
+    border-radius: 0;
+    box-shadow: unset;
+ }
+ 
+.group__course-channel-content {
+     flex: 1;
+     padding:0 16px;
+}
+
+.is-mobile .group__course-channel-content {
+    display: none;
+}
+
+
+.group__course-channel-header {
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.group__course-channel-menu {
+    width: 200px;
+    border-left: 1px solid #ddd;
+    padding: 16px;
+}
+
+.is-mobile .group__course-channel-menu {
+    width: 100%;
+}
+
+.group__course-channel-menu-item {
+    padding: 4px;
+    color: #000;
+    text-decoration: none;
+    display: block;
+}
+
+.group__course-channel-menu-item.SELECTED {
+    background-color: rgba(0, 0, 0, .54);
+    color: #fff;
+    border-radius: 4px;
+}
+
+.is-mobile .group__course-channel-menu-item {
+    color: #0079f2;
+}
+
+.is-mobile .group__course-channel-menu-item.SELECTED {
+    background-color: #fff;
+}
+
+.group__course-channel-messages{
+    height: 700px;
+}
+
+.group__course-channel-textbox,
+.group__channel-input {
+    display: block;
+    resize: none;
+    margin: 0 24px 0 0;
+    padding: 12px 42px 13px 12px;
+    font-size: 15px;
+    font-family: inherit;
+    line-height: 20px;
+    color: #333;
+    color: #000;
+    background-color: #eee;
+    background-color: #f0f0f0;
+    background-color: #e0e0e0;
+    background-color: #e5e5e5;
+    background-image: none;
+    border: none;
+    border-radius: 6px;
+    transition-property: border-color, box-shadow;
+    transition-duration: .2s;
+    width: 100%;
+    height: 45px;
+    vertical-align: baseline;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    box-sizing: border-box;
+}
+
+.group__channel {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 1000;
+}
+
+.group__channel-header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    gap: 12px;
+}
+
+.group__channel-messages {
+    height: 86vh;
+}
+
+
+.group__channel-input-container {
+    padding: 0 16px;
+}
+
+.group__channel-name {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.group__channel-group-name {
+    color: #888;
+    font-size: 14px;
+}
+
+.group__channel-back-button-icon {
+    width: 20x;
+    height: 20px;
 }
