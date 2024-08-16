@@ -468,12 +468,13 @@ h1 {
     margin: 16px auto 8px;
     font-size: 13px;
     padding: 4px 8px 8px;
+    color: #888;
 }
 
 .group__breadcrumbs a:visited {
     text-decoration: none;   
     color:#0079f2; 
-    color: #000;
+    color: #888;
 }
 
 .group__course-item-title {
